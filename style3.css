@@ -1,0 +1,165 @@
+body{
+margin:0;
+padding:0;
+font-family:sans-serif;
+/*background:url(back.jpg) ;*/
+background-size:cover;
+
+}
+.title{
+	text-align:center;
+	padding:50px 0 20px;
+	
+}
+.title h1{
+	margin:0;
+	padding:0;
+	color:#262626;
+	/*text-transform:uppercase;*/
+	font-size:30px;
+	
+}
+.container{
+	width:50%;
+	height:400px;
+	background:#fff;
+	margin:0 auto;
+	border:2px solid #fff;
+	box-shadow:0 30px 70px rgba(0,0,0,0.3);
+}
+.container  .left{
+	float:left;
+	width:50%;
+	height:400px;
+	background:url(back7.jpg);
+	background-size:cover;
+	box-sizing:border-box;
+	
+}
+.container   .right{
+	float:left;
+	width:50%;
+	height:400px;
+	background-size:cover;
+	box-sizing:border-box;
+	
+}
+.formBox{
+	width:100%;
+	padding:80px 40px;
+	box-sizing:border-box;
+	height:400px;
+	background:#fff;
+}
+.formBox p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	color:#a6af13;
+}
+.formBox  input{
+	width:100%;
+	margin-bottom:20px;
+	}
+.formBox  input[type="text"],
+.formBox  input[type="Password"]{
+	border:none;
+	border-bottom: 2px solid #a6af13;
+	outline:none;
+	height:40px;
+}
+.formBox  input[type="text"],
+.formBox  input[type="Password"]:focus{
+	border-bottom: 2px solid #262626;
+}
+.formBox  input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;
+}
+.formBox  input[type="submit"]:hover{
+	background:#a6af13;
+	
+}
+.formBox a{
+	color:#262626;
+	font-size:12px;
+	font-weight:bold;
+}
+
+
+
+/*.login-box{
+	width:200px;
+	position:absolute;
+	top:55%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:white;
+}
+.login-box  h1{
+	float:left;
+	font-size:40px;
+	border-bottom:10px solid white;
+	margin-bottom: 50px;
+	padding:13px 0
+	
+}
+.textbox{
+	width:200%;
+	overflow:hidden;
+	font-size:30px;
+	padding:8px;
+	margin:80px 0;
+	border-bottom:4px solid white;
+}
+.text i{
+	width:26px;
+	float:left;
+	text-align:center;
+}
+
+.textbox input{
+	border:none;
+	outline:none;
+	background:none;
+	color:white;
+	font-size:18px;
+	width:80%;
+	float:left;
+	margin:0 10px;
+}
+.btn{
+	width:100%;
+	background:none;
+	border:7px solid #4caf50;
+	color:white;
+	padding:5px;
+	font-size:18px;
+	cursor:pointer;
+	margin:12px 0;
+	transform:translate(-10%,-150%);
+ transition:0.8s;
+}
+.btn:hover{
+color:black;
+opacity: 1.15;
+}
+.previous{
+	background-color:black;
+  color: white;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 17%;
+ font-size:30px;
+ 
+}*/
+
+
+
+

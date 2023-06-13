@@ -1,0 +1,103 @@
+
+	
+
+body{
+margin:0;
+padding:0;
+font-family:sans-serif;
+/*background:url(back.jpg) ;*/
+background-size:cover;
+
+}
+.titlel{
+	text-align:center;
+	padding:50px 0 20px;
+	
+}
+.titlel h1{
+	margin:0;
+	padding:0;
+	color:#262626;
+	/*text-transform:uppercase;*/
+	font-size:30px;
+	
+}
+.containerr{
+	width:80%;
+	height:400px;
+	background:#fff;
+	margin:0 auto;
+	border:2px solid #fff;
+	box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+.containerr  .left{
+	float:left;
+	width:50%;
+	height:400px;
+	background:url(back7.jpg);
+	background-size:cover;
+	box-sizing:border-box;
+	
+}
+.containerr   .right{
+	float:left;
+	width:50%;
+	height:400px;
+	background-size:cover;
+	box-sizing:border-box;
+	
+}
+.formBoxx{
+	width:80%;
+	padding:80px 40px;
+	box-sizing:border-box;
+	height:400px;
+	background:#fff;
+}
+.formBoxx  label{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	color:#a6af13;
+}
+.formBoxx  input{
+	width:150%;
+	margin-bottom:20px;
+	}
+.formBoxx  input[type="text"],
+.formBoxx input[type="Password"]{
+	border:none;
+	border-bottom: 2px solid #a6af13;
+	outline:none;
+	height:40px;
+}
+.formBoxx  input[type="text"],
+.formBoxx  input[type="Password"]{
+	border-bottom: 2px solid   black/*#262626*/;
+}
+.formBoxx  input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	color:#fff;
+	background:#262626;
+	cursor:pointer;
+}
+.formBoxx  input[type="submit"]:hover{
+	background:#a6af13;
+	
+}
+.formBoxx a{
+	color:#262626;
+	font-size:12px;
+	font-weight:bold;
+}
+@media(max.width:991px){
+	#titlel{
+		font-size:12px;
+		text-align:center;
+	}
+}
+
+
+
